@@ -1,0 +1,12 @@
+.unit__paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+    margin: 0 0 33px;
+    padding: 0 16px;
+  }
+  
+  @media screen and (min-width: 1024) {
+    .unit__paragraph {
+      max-width: 690px;
+    }
+  }

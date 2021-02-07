@@ -1,0 +1,26 @@
+.page__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 16px 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .page__container {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page__container {
+    padding-top: 28px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page__container {
+    max-width: 1184px;
+  }
+}
