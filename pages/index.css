@@ -19,7 +19,7 @@
 @import url('../blocks/header/__link/_active/header__link_active.css');
 
 @import url('../blocks/logo/logo.css');
-@import url('../blocks/logo/_place_header/logo_place_header.css');
+@import url('../blocks/logo/_place/logo_place_header.css');
 
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/__unit/content__unit.css');
@@ -75,6 +75,6 @@
 @import url('../blocks/unit/__title/unit__title.css');
 @import url('../blocks/unit/__paragraph/unit__paragraph.css');
 
-@import url('../blocks/unit/_type_special/unit_type_special.css');
+@import url('../blocks/unit/_type/unit_type_special.css');
 
 */
