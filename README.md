@@ -28,4 +28,4 @@ GitHub
 
 **Ссылка на проект**
 
-https://github.com/AndreiZhdanov/russian-travel.html
+https://andreizhdanov.github.io/russian-travel/.html
