@@ -1,6 +1,5 @@
 .container__footer {
-  width: 100%;
-  padding: 0 16px;
+  padding: 0 0 0 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,5 +11,11 @@
 @media screen and (min-width: 1024px) {
   .container__footer {
     padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container__footer {
+    padding: 0;
   }
 }

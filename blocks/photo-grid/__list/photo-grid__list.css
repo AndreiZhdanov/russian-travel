@@ -1,12 +1,10 @@
 .photo-grid__list {
   display: grid;
-  grid-gap: 16px;
-  
-  grid-template-rows: minmax(216px, 1fr);
-
   list-style-type: none;
   margin: 0;
   padding: 0;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 12px;
 }
 
 @media screen and (min-width: 768px) {

@@ -3,9 +3,6 @@
 
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__container/page__container.css');
-@import url('../blocks/page/__header/page__header.css');
-@import url('../blocks/page/__content/page__content.css');
-@import url('../blocks/page/__footer/page__footer.css');
 
 @import url('../blocks/container/container.css');
 @import url('../blocks/container/__header/container__header.css');
@@ -22,7 +19,11 @@
 @import url('../blocks/logo/_place/logo_place_header.css');
 
 @import url('../blocks/content/content.css');
-@import url('../blocks/content/__unit/content__unit.css');
+@import url('../blocks/content/__lead/content__lead.css');
+@import url('../blocks/content/__intro/content__intro.css');
+@import url('../blocks/content/__photo-grid/content__photo-grid.css');
+@import url('../blocks/content/__cover/content__cover.css');
+@import url('../blocks/content/__places/content__places.css');
 
 @import url('../blocks/unit/unit.css');
 
@@ -31,6 +32,7 @@
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 @import url('../blocks/lead/__figure/lead__figure.css');
 @import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__overlay/lead__overlay.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
 
 @import url('../blocks/intro/intro.css');
@@ -70,11 +72,10 @@
 
 
 
-/* эти стили наметил и оставляю для последующей доработки кода и оптимизации
+
+/* эти стили наметил и оставляю для последующей оптимизации
 
 @import url('../blocks/unit/__title/unit__title.css');
 @import url('../blocks/unit/__paragraph/unit__paragraph.css');
-
-@import url('../blocks/unit/_type/unit_type_special.css');
 
 */
