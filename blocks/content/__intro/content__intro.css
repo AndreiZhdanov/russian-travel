@@ -1,5 +1,6 @@
 .content__intro {
   margin: 0 auto;
+  padding: 0;
   max-width: calc(100% - 16px*2);
 }
 
@@ -11,14 +12,13 @@
 
 @media screen and (min-width: 1024px) {
   .content__intro {
-    max-width: calc(100% - 48px*2);
+    margin: 0;
+    padding-left: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .content__intro {
-    margin: 0;
-    width: 100%;
     padding-left: 100px;
   }
 }
